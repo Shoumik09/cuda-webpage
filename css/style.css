@@ -1,0 +1,408 @@
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+    text-align: center;
+    padding: 75px 0px;
+}
+p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.heading{
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.sub-heading{
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+.underline{
+    border-top: 5px solid #0000004c;
+    width: 5% !important;
+    margin: 15px auto !important;
+}
+.writing-part{
+    margin-bottom: 50px;
+}
+.writing-part p{
+    width: 50%;
+    margin: auto;
+}
+.box{
+    padding: 0px 25px;
+}
+.btn{
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Layout */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row {
+    width: 100%;
+    float: left;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Header Part  */
+header {
+    background-color: #87509c;
+    color: #fff;
+}
+nav{
+    padding: 10px 0px;
+}
+.menu-part{
+    text-align: right;
+    padding: 10px 0px;
+}
+.menu-part li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+.menu-part li a {
+    padding: 7px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+.menu-part li a:hover{
+    background-color: rgba(0, 0, 0, 0.398);
+    border-radius: 7px;
+}
+.hero-part {
+    text-align: center;
+    padding: 100px 150px;
+}
+.hero-part h1{
+    font-size: 45px;
+    line-height: 45px;
+}
+.hero-part a button{
+    background-color: #eb7d4b;
+    color: #fff;
+    margin-top: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Service Section  */
+#service{
+    background: #17c2a4;
+    color: #fff;
+}
+#service .box img{
+    height: 150px;
+}
+
+/* Team Section  */
+#team{
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+#team .box .sub-heading{
+    margin-bottom: 0px;
+}
+.title{
+    font-size: 18px;
+    color: #30bae7;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.team-icon-box{
+    margin-top: 30px;
+}
+.team-icon-box i{
+    font-size: 20px;
+    background-color: #3c4761;
+    color: #e7f1f8;
+    padding: 12px;
+    width: 45px;
+    border-radius: 50px;
+}
+.team-icon-box i:hover{
+    background-color: #222428;
+}
+
+/* Skill Section  */
+#skill{
+    color: #3c4761;
+}
+
+/* Portfolio Section  */
+#portfolio{
+    background-color: #ffdd99;
+    color: #393939;
+}
+.box-part p{
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.btn1{
+    background-color: #17c2a4;
+    color: #ffffff;
+    margin-top: 40px;
+    border-radius: 50px;
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 3px 4px 0px 4px rgba(23, 194, 164, .7);
+}
+.btn1:hover {
+    background-color: #221c1c;
+    cursor: pointer;
+}
+.all {
+    margin-top: 30px;
+    background-color: #ebc985;
+    color: #393939;
+    width: 80px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.all:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.web {
+    margin-top: 30px;
+    background-color: #ebc985;
+    color: #393939;
+    width: 80px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.web:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.apps {
+    margin-top: 30px;
+    background-color: #ebc985;
+    color: #393939;
+    width: 80px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.apps:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.icon {
+    margin-top: 30px;
+    background-color: #ebc985;
+    color: #393939;
+    width: 80px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.icon:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+/* About Section  */
+#about{
+    width: 100%;
+    float: left;
+    background-color: #d74680;
+    color: #fff;
+}
+
+#about .box img {
+    height: 110px;
+    margin-left: 150px;
+}
+
+#about .designation1{
+    color: #ffdd99;
+    margin-right: 210px;
+}
+#about .designation2{
+    color: #ffdd99;
+    margin-right: 190px;
+}
+#about .designation3{
+    color: #ffdd99;
+    margin-right: 180px;
+}
+#about .designation4{
+    color: #ffdd99;
+    margin-right: 190px;
+}
+.sub-heading1{
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-right: 160px;
+}
+.sub-heading2{
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-right: 150px;
+}
+.sub-heading3{
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-right: 120px;
+}
+.sub-heading4{
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-right: 160px;
+}
+
+#about .description{
+    font-style: italic;
+    width: 70%;
+    text-align: left;
+}
+
+/* Contact Section  */
+#contact{
+    background-color: #3c5499;
+    color: #fff;
+}
+form{
+    width: 75%;
+    margin: auto;
+}
+.text1{
+    display: block;
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+.text2 {
+    display: block;
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+textarea{
+    width: 100%;
+    margin-top: 25px;
+}
+input, textarea{
+    background-color: #273a71;
+    color: #fff;
+    padding: 12px;
+    font-size: 22px;
+    border-radius: 20px;
+}
+.submit-part .btn2{
+    background-color: #30bae7;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.submit-part .btn2:hover {
+    background-color: #212022;
+}
+
+/* Footer Section  */
+footer{
+    background-color: #344b8e;
+}
+.footer-part{
+    text-align: center;
+}
+.footer-part li {
+    display: inline-block;
+    margin: 25px 0px;
+}
+
+.footer-part li a {
+    padding: 20px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-part li a:hover {
+    background-color: #30bae7;
+    border-radius: 50px;
+}
+

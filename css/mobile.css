@@ -1,0 +1,10 @@
+/* mobile device */
+@media (max-width: 600px) {
+    header {
+        background-color: #eb7d4b;
+    }
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
