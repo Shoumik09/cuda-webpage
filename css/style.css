@@ -279,6 +279,9 @@ nav{
     background-color: #ffffff;
     cursor: pointer;
 }
+#portfolio .box img{
+    width: 80%;
+}
 
 /* About Section  */
 #about{
